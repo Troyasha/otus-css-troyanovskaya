@@ -7,64 +7,59 @@
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    line-height: 18.75px;
-    }
+    line-height: 1.2;
+}
 
 
-h1,h3 {
+h1 {
     font-family: "Butler", sans-serif;
     font-size: 87px;
-    line-height: 104.4px;
     font-weight: 400;
 }
 
 h2 {
-    font-family: "Roboto", sans-serif;
     font-size: 18px;
-    line-height: 21.09px;
     font-weight: 700;
 }
 
-.roboto500 {
-    font-family: "Roboto", serif;
+.info-header {
+    font-family: "Butler", serif;
+    font-weight: 400;
+    font-size: 87px;
+}
+
+.work-positions {
     font-weight: 500;
     font-size: 18px;
-    line-height: 21.09px;
     color: #636363;
 }
 
-.butler400 {
+.quote {
     font-family: "Butler", serif;
     font-weight: 400;
     font-size: 32px;
-    line-height: 38.4px;
 }
 
-.roboto700 {
-    font-family: "Roboto", serif;
+.designer-title {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 18.75px;
 }
 
-.roboto400 {
-font-weight: 400;
-}
-
-.butler92 {
-    font-family: "Butler", sans-serif;
-    font-size: 92px;
-    line-height: 110.4px;
-    font-weight: 400; 
-}
-
-.butler34 {
-    font-family: "Butler", sans-serif;
-    font-size: 34px;
-    line-height: 40.8px;
+.information-section {
     font-weight: 400;
 }
 
-ul {
+.testimonial-list {
+    font-weight: 700;
+}
+
+
+.strengths-list {
+    font-family: "Butler", sans-serif;
+    font-size: 34px;
+    font-weight: 400;
     list-style: none;
+}
+
+.testimonial-list a {
+    font-weight: 400;
 }
