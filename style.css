@@ -10,16 +10,48 @@ body {
     line-height: 1.2;
 }
 
+.main-information {
+    position: relative;
+    height: 100vh;
+}
+
+.image-background {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+}
+
+.headers-container {
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+    padding-top: 100px;
+    padding-bottom: 70px ;
+
+}
 
 h1 {
     font-family: "Butler", sans-serif;
     font-size: 87px;
     font-weight: 400;
+    margin: 0px;
 }
 
 h2 {
     font-size: 18px;
     font-weight: 700;
+    margin: 0px;
 }
 
 .info-header {
