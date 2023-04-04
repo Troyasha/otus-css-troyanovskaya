@@ -38,9 +38,7 @@ body {
     z-index: -1;
     padding-top: 100px;
     padding-bottom: 70px;
-
 }
-
 
 h1 {
     font-family: "Butler", sans-serif;
@@ -66,14 +64,12 @@ h2 {
     margin-top: 135px;
     max-width: 1500px;
     margin: 135px auto;
-
 }
 
 .img {
     width: 553px;
     height: 840px;
-    }
-
+}
 
 .biography-title {
     position: absolute;
@@ -94,7 +90,6 @@ h2 {
     font-weight: 500;
     font-size: 18px;
     color: #636363;
-
 }
 
 .quote {
@@ -113,10 +108,61 @@ h2 {
     font-weight: 400;
 }
 
-.testimonial-list {
-    font-weight: 700;
+.testimonials {
+    display: grid;
+    max-width: 1500px;
+    grid-template-columns: 100px 60px 515px 200px 221px;
+    grid-template-rows: 60px 300px 300px 300px;
+    margin-top: 150px;
+    margin-left: 130px;
 }
 
+.testimonials-header {
+    grid-column: 1 / 4;
+    padding-left: 100px;
+}
+
+.testimonial-image {
+    width: 515px;
+    height: 757px;
+    grid-row: 2 / 5;
+    grid-column: 2/3;
+    grid-column-start: center;
+    padding-left: 18px;
+}
+
+.info-testimonials {
+    font-family: "Butler", serif;
+    font-weight: 400;
+    font-size: 32px;
+    grid-column: 5 / 6;
+    grid-row: 2 / 5;
+    text-align: center;
+    height: 320px;
+}
+
+.testimonial-list {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    margin-left: 50px;
+}
+
+.testimonial-links {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    list-style: none;
+    margin-inline: 0;
+    padding-inline: 0;
+    margin-block: 0;
+}
+
+.testimonial-links li {
+    transform: rotate(270deg);
+    transform-origin: right;
+}
 
 .strengths-list {
     font-family: "Butler", sans-serif;
@@ -127,4 +173,8 @@ h2 {
 
 .testimonial-list a {
     font-weight: 400;
+}
+
+.header-points {
+    margin-top: 250px;
 }
