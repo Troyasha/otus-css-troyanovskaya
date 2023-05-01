@@ -120,8 +120,6 @@ h2 {
     align-self: end;
 }
 
-
-
 .main-designer {
     height: 540px;
     width: 640px;
@@ -134,23 +132,22 @@ h2 {
 .designer-info {
     grid-row: 3 / 4;
     grid-column: 1 / 2;
-   justify-self: right;
+    justify-self: right;
     padding-right: 10%;
     padding-top: 10px;
-   }
+}
 
 .designer-image {
     height: 440px;
     width: 320px;
     padding-top: 25px;
-
 }
 
 .designer-title {
     font-weight: 700;
     margin: 0;
     line-height: 5px;
- }
+}
 
 .information-section {
     font-weight: 400;
@@ -158,21 +155,21 @@ h2 {
 }
 
 
-.article-designers{
+.article-designers {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
 }
 
-.other-designers{
+.other-designers {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.designer-kameron{
+.designer-kameron {
     grid-column: 1 / 2;
 }
 
-.design-louisse{
+.design-louisse {
     grid-column: 2 / 3;
 }
 
@@ -180,11 +177,7 @@ h2 {
 .designer-title-header {
     font-weight: 700;
     padding-top: 10px;
-  }
-
-
-
-
+}
 
 /*Testimonial section*/
 .testimonials {
@@ -259,17 +252,74 @@ h2 {
     transform-origin: right;
 }
 
+.testimonial-list a {
+    font-weight: 400;
+}
+
+
+/*Strengths-points*/
+
+.header-points {
+    margin-top: 250px;
+    display: grid;
+    grid-template-rows: 130px 600px;
+    grid-template-columns: 750px 420px 350px;
+    column-gap: 30px;
+    max-width: 1500px;
+    margin: 135px auto;
+
+}
+
+.strong-points-header {
+    grid-row: 1/ 2;
+    grid-column: 1 / 2;
+    transform: rotate(270deg);
+    justify-self: center;
+    padding-top: 120px;
+    align-self: end;
+
+
+}
+
+.strong-image {
+    grid-row-start: 2;
+    grid-column: 1 / 2;
+    padding-left: 10px;
+}
+
+.notebook {
+    width: 350px;
+    height: 525px;
+}
+
+.armchair {
+    width: 350px;
+    height: 525px;
+    padding-left: 30px;
+}
+
+.strengths-header {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    margin: 0;
+}
+
+
 .strengths-list {
     font-family: "Butler", sans-serif;
     font-size: 34px;
     font-weight: 400;
     list-style: none;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding-left: 20%;
 }
 
-.testimonial-list a {
-    font-weight: 400;
-}
+.strengths-side-image {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    width: 240px;
+    height: 525px;
 
-.header-points {
-    margin-top: 250px;
+
 }
