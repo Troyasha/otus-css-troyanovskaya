@@ -267,7 +267,6 @@ h2 {
     column-gap: 30px;
     max-width: 1500px;
     margin: 135px auto;
-
 }
 
 .strong-points-header {
@@ -277,8 +276,6 @@ h2 {
     justify-self: center;
     padding-top: 120px;
     align-self: end;
-
-
 }
 
 .strong-image {
@@ -320,6 +317,4 @@ h2 {
     grid-column: 3 / 4;
     width: 240px;
     height: 525px;
-
-
 }
